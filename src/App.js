@@ -11,9 +11,9 @@ import {
 
 const App = () => {
   const [items, setItems] = useState([
-    { itemName: "apple", quantity: 1, isSelected: false },
-    { itemName: "potato", quantity: 3, isSelected: true },
-    { itemName: "pear", quantity: 2, isSelected: false },
+    { itemName: "apple", quantity: 0, isSelected: false },
+    { itemName: "potato", quantity: 0, isSelected: false },
+    { itemName: "pear", quantity: 0, isSelected: false },
   ]);
 
   const [inputValue, setInputValue] = useState("");
